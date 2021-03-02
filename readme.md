@@ -1,5 +1,7 @@
 # 開発環境説明
 
+https://qiita.com/A-Kira/items/0dda255e00771f556e2a
+
 ├── docker
 │   └── java
 │       └── Dockerfile
@@ -21,7 +23,7 @@ docker-compose ps
 //dockerコンテナを落とす
 docker-compose down
 
-//インスペクション
+//インスペクション(実行したい場合はサーバーに入る)
 docker-compose exec java bash
 
 //コンパイル
@@ -29,4 +31,8 @@ javavc Main.java
 
 //実行
 java Main
+
+//コンテナから出る
+exit
+
 ```
